@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dark"
+    tools:context=".item_row">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ItemCard"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#e6ff08"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" >
+
+        <TextView
+            android:id="@+id/txt_CStep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:fontFamily="@font/bungee"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="15dp"
+            android:textSize="40sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_Step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="100dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="monday"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/bungee"
+            android:layout_marginStart="180dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/walkImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="4dp"
+            app:srcCompat="@drawable/hwalk2" />
+
+        <ImageView
+            android:id="@+id/delet"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="65dp"
+            app:srcCompat="@drawable/delete" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

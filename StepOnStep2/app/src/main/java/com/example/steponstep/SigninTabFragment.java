@@ -23,7 +23,7 @@ float v =0;
         Email = root.findViewById(R.id.EmailS);
         Password = root.findViewById(R.id.PasswordS);
         RePassword = root.findViewById(R.id.Password2S);
-        SIGN = root.findViewById(R.id.button);
+//        SIGN = root.findViewById(R.id.button);
 
         Name.setTranslationX(800);
         Email.setTranslationX(800);

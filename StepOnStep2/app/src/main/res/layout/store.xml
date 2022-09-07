@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_dark"
+    android:layout_height="match_parent"
+    tools:context=".Store">
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
+        android:layout_marginTop="-10dp"
+        android:text="Store"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="409dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="-295dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hrs"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="-395dp"
+        android:layout_marginTop="590dp"
+        android:backgroundTint="#E6E6FF08"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" >
+
+        <ImageView
+            android:id="@+id/homei"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="165dp"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/shopi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            app:srcCompat="@drawable/shop" />
+
+        <ImageView
+            android:id="@+id/finishi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="280dp"
+            app:srcCompat="@drawable/heart" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
